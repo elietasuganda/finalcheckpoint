@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <link rel="stylesheet" href="index.css">
+</head> 
+<body>
+    <header>
+        <h1>Beauty Salon!</h1>
+        <nav>
+            <div class="navbar">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/week1/index.html">Home</a></li>
+                <li><a href="#Form">Form</a></li>
+                <li><a href="mailto:example@beauty.com">Email</a></li>
+                <li><a href="phone:+6281234567890">Contact Us</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+
+    <center><img src="./picture/beauty.jpg" width="200px"></center><br>
+    <audio src="/audio/audio-example.wav" controls></audio><br>
+
+    <h3>This is a place where people go for various beauty treatments, such as haircuts, styling, coloring, manicures, pedicures, and skincare services. Beauty salons often offer a relaxing environment with trained professionals to help clients look and feel their best.</h3>
+    <form action="/api/server"></method="post">
+        <p>Registration:</p>
+            <label for="name">Full Name</label><br>
+            <input type="text" name="name" placeholder="Your Full Name" id="name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" placeholder="Your Email" id="email"><br>
+            <label for="number">Phone Number</label><br>
+            <input type="number" name="number" placeholder="Your Phone Number" id="number"><br>
+            <label for="message">Address</label><br>
+            <textarea id="message" name="message" placeholder="Your Address" cols="20" rows="5" id="message"></textarea><br>
+            <label for="date">Visit</label><br>
+            <input type="datetime-local" name="datetime-local" placeholder="Input Date" id="date"><br>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label>Treatments</label><br>
+            <input type="checkbox" id="Creambath" name="Treatments" value="Creambath">
+            <label for="Creambath">Creambath</label>
+            <input type="checkbox" id="Facial" name="Treatments" value="Facial">
+            <label for="Facial">Facial</label>
+            <input type="checkbox" id="Hair Spa" name="Treatments" value="Hair Spa">
+            <label for="Hair Spa">Hair Spa</label>
+            <input type="checkbox" id="Manicure" name="Treatments" value="Manicure">
+            <label for="Manicure">Manicure</label>
+            <input type="checkbox" id="Pedicure" name="Treatments" value="Pedicure">
+            <label for="Pedicure">Pedicure</label><br><br>
+            <input type="submit" value="submit">
+            <br><br>
+
+            <section class="image-container">
+                <img src="./picture/creambath.jpg" width="200px">
+                <h4>creambath</h4>
+                <img src="./picture/facial.jpg" width="200px">
+                <h4>facial</h4>
+                <img src="./picture/hair spa.jpg" width="200px">
+                <h4>hair spa</h4>
+                <img src="./picture/manicure.jpg" width="200px">
+                <h4>manicure</h4>
+                <img src="./picture/pedicure.jpg" width="200px">
+                <h4>pedicure</h4>
+            </section>   
+    </form>
+</body>
+</html>

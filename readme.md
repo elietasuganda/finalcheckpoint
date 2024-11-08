@@ -20,5 +20,9 @@ In this case, include:
     7. Treatment, consists of input type=‘checkbox’, id, name, value.
     I use checkbox because it can select more than one option, id provides identification for the checkbox element, so that if the label is clicked then the checkbox will be ticked, name is used to name the variable, this value determines the value sent to the system, if the checkbox is not ticked, then this value will not be sent.
 5. Button submit
+6. I added background image and shadow-text as well as animation 
+7. The navbar is made to change the background color when the cursor is in the navbar, with a duration of 5 seconds
+8. For @media or images will change according to the specified resolution
+9. At the bottom I use a 3 column grid with the same size 
 
 In this web I use @media (max-width: 1200px) and (max-width: 600px) where if the web resolution is less than 1200px and 600px then the web display will adjust. 

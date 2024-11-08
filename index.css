@@ -1,3 +1,30 @@
+header {
+    text-align: center;
+    font-weight: bold;
+    color: maroon;
+    background-color: black;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+#header {
+    background-image: url("./picture/salon.jpg");
+}
+
+.shadow-text {
+    font-size: 50px;
+    color: lightcoral;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+body {
+    font-family: "Itim", serif;
+    margin: 0;
+}
+
 h1 {
     font-size: 40px;
     font-weight: border;
@@ -6,7 +33,57 @@ h1 {
     color: brown;
 }
 
-div {
+h1 {
+    animation-duration: 5s;
+    animation-name: appearingfromtheright;
+}
+
+@keyframes appearingfromtheright {
+    from {
+        margin-left: 100%;
+        font-size: 48px;
+    }
+
+    75% {
+        margin-left: 50%;
+        font-size: 36px;
+        color: darkgreen;
+    }
+
+    50% {
+        margin-left: 50%;
+        font-size: 36px;
+        color: darkblue;
+    }
+
+    to {
+        margin-left: 0;
+        font-size: 24px;
+    }
+}
+
+#beauty {
+    transform: scale(2, 1.5);
+}
+
+h3 {
+    animation-duration: 3s;
+    animation-name: aboutbeautysalaon;
+}
+
+@keyframes aboutbeautysalaon {
+    from {
+        margin-top: 100%;
+        font-size: 36px;
+    }
+
+    to {
+        margin-top: 0;
+        font-size: 24px;
+    }
+}
+
+.navbar {
     min-width: 80vh;
     padding: 10px;
     border-radius: 8px;
@@ -15,6 +92,13 @@ div {
     left: 20px;
     text-align: center;
     background-color: goldenrod;
+    cursor: pointer;
+    transition-property: backgroud-color;
+    transition-duration: 5s;
+}
+
+.navbar:hover {
+    background-color: lightpink;
 }
 
 nav {
@@ -117,3 +201,26 @@ h4 {
         gap: 10px;
     }
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid none;
+    border-radius: 5px;
+    background-color: none;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper > div {
+    border: 2px solid maroon;
+    border-radius: 5px;
+    background-color: black;
+    padding: 1em;
+    color: beige;
+    padding: 20px;
+}
+

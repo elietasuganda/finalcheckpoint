@@ -223,12 +223,14 @@ h4 {
     padding: 1em;
     color: beige;
     padding: 20px;
+    /* grid-gap: 2rem; */
+    /* grid-gap: 100px 1em; */
 }
 
 .wrapper-item1 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 

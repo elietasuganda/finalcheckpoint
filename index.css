@@ -236,6 +236,8 @@ h4 {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+    background-color: black;
+    border: 2px solid maroon;
 }
 
 .wrapper-item2 {

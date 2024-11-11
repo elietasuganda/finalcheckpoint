@@ -2,7 +2,6 @@
 
 Created by Elieta Liestiani Suganda
 About HTML and CSS
-[elietasuganda's intermediateassignment](https://elietasuganda.github.io/intermediateassignment/)
 
 This is assignment HTML and CSS about beuaty salon web and i create for registration
 
